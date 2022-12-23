@@ -975,6 +975,13 @@ nav .container .links .main-ul #other-links:hover .mega-menu {
   animation-direction: alternate;
   animation-iteration-count: infinite;
 }
+
+@media (max-width: 767px) {
+  .our-skills .container .image img {
+    display: none;
+  }
+}
+
 .our-skills .container .skills {
   margin-top: 25px;
 }
@@ -1056,6 +1063,12 @@ nav .container .links .main-ul #other-links:hover .mega-menu {
   animation-iteration-count: infinite;
 }
 
+@media (max-width: 767px) {
+  .how .container .image img {
+    display: none;
+  }
+}
+
 .how .container .info {
   margin-top: 20px;
   width: 95%;
@@ -1122,6 +1135,12 @@ nav .container .links .main-ul #other-links:hover .mega-menu {
   animation-timing-function: linear;
   animation-direction: alternate;
   animation-iteration-count: infinite;
+}
+
+@media (max-width: 767px) {
+  .events .container-info .image img {
+    display: none;
+  }
 }
 
 .events .container-info .info {
